@@ -186,7 +186,140 @@ This system helps organizations:
 ✔ Support strategic cloud planning
 ✔ Make data-driven infrastructure decisions
 
+📌 Module: Feature Engineering & Data Wrangling
+🎯 Objective
+
+The objective of this module is to prepare the cleaned Azure dataset for predictive modeling by performing feature enrichment, transformation, and restructuring. This process enhances raw data into meaningful, model-ready features suitable for demand forecasting.
+
+📊 1. Identifying Demand-Driving Features
+
+To improve forecasting performance, key demand-influencing variables were identified:
+
+🔹 Usage Trends
+
+Daily usage volume
+
+Rolling averages (7-day)
+
+Rolling maximum and minimum usage
+
+Percentage change in usage
+
+These features help detect consumption patterns and short-term fluctuations.
+
+🔹 Service Uptime Metrics
+
+Uptime percentage
+
+Downtime indicators
+
+Service availability consistency
+
+Service reliability directly affects demand and user engagement.
+
+🔹 User Behavior Metrics
+
+Active users
+
+New user registrations
+
+Usage per user ratio
+
+Session activity patterns
+
+User engagement patterns contribute significantly to demand forecasting accuracy.
+
+🛠 2. Feature Engineering
+
+To enrich the dataset, the following derived features were created:
+
+🔹 A. Seasonality Features
+
+Seasonal effects were captured using:
+
+Day of week
+
+Month
+
+Quarter
+
+Weekend flag
+
+These features help models capture weekly and monthly demand patterns.
+
+🔹 B. Rolling Statistics
+
+Rolling window calculations were applied to smooth fluctuations:
+
+7-day rolling average
+
+7-day rolling maximum
+
+7-day rolling minimum
+
+These features capture short-term trends and volatility.
+
+🔹 C. Lag Variables
+
+Lag features were created to help the model learn historical dependencies:
+
+Lag 1 day
+
+Lag 7 days
+
+Lag 30 days
+
+Lag variables are essential in time-series forecasting.
+
+🔹 D. Usage Spike Detection
+
+Usage spikes were identified using statistical thresholds:
+
+Mean + 2 × Standard Deviation rule
+
+Binary spike flag indicator
+
+This helps capture abnormal demand surges.
+
+🔄 3. Data Wrangling & Reshaping
+
+To make the dataset model-ready:
+
+✔ Time Granularity Standardization
+
+Data was resampled to daily granularity.
+
+Dates were converted to datetime format.
+
+Records were sorted chronologically.
+
+✔ Missing Value Handling
+
+Lag-induced missing values were handled using backward filling.
+
+Data consistency was ensured across all features.
+
+✔ Schema Standardization
+
+The final structured dataset contains:
+
+Date
+
+Target variable (Usage/Demand)
+
+Lag features
+
+Rolling statistics
+
+Seasonality indicators
+
+Spike flags
+
+Uptime metrics
+
+User behavior features
 👨‍💻 Author
 
 Sunil Mali
 Azure Based Demand Forecasting & Capacity Optimization System
+
