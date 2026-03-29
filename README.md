@@ -96,4 +96,106 @@ GitHub
 🌸 Azure Dashboard:
 Azure_Demand_Forecasting_Dashboard_Link
 🚀 Try the App:
-👉 https://sunil-azure-demand-forecast-app.lovable.app/
+👉 Ritesh Azure Demand Forecasting
+
+If you want, I can also:
+
+Add badges (GitHub style)
+Convert this into a professional project report or PPT
+Or generate a diagram image instead of text flow
+after pasting the content they goes messivce by leaving space and mergese
+
+Yeah, that happens because Markdown formatting breaks when spacing, indentation, or special characters aren’t handled properly in GitHub.
+
+Here’s a clean, fixed README version that will NOT break or merge unexpectedly 👇
+
+🚀 Azure Demand Forecasting & Capacity Optimization System
+📑 Index
+Project Overview
+Objectives
+Key Features & Milestones
+Expected Outcomes
+Architecture Diagram
+Tech Stack
+Dashboard & App Links
+👀 Project Overview
+
+This project focuses on building a predictive system to accurately forecast Azure Compute and Storage demand.
+
+The primary goal is to support the Azure Supply Chain team in making informed capacity provisioning decisions, reducing both over-investment and under-utilization of infrastructure.
+
+The solution uses:
+
+Data preprocessing
+Feature engineering
+Machine learning models
+
+to predict future demand patterns and provide actionable insights.
+
+🎯 Objectives
+Forecast future Azure service usage accurately
+Optimize resource allocation and provisioning
+Reduce infrastructure cost wastage
+Support decision-making using data-driven insights
+Enable scalable and automated demand prediction
+🧠 Key Features & Milestones
+🎯 Milestone 1: Data Collection & Preparation
+Collect Azure Compute and Storage usage data (regional & seasonal)
+Gather external variables (economic indicators, market trends)
+Clean and validate datasets:
+Handle missing values
+Standardize formats
+Ensure consistency
+🎯 Milestone 2: Feature Engineering & Data Wrangling
+Identify demand-driving features:
+Usage trends
+Service uptime
+User behavior
+Create derived features:
+Lag variables
+Rolling averages
+Spike detection
+Prepare model-ready datasets with consistent structure
+🎯 Milestone 3: Model Building & Validation
+Train forecasting models:
+ARIMA
+XGBoost
+Evaluate models using RMSE
+Perform hyperparameter tuning with GridSearchCV
+Select the best-performing model
+🤔 Expected Outcomes
+Improved accuracy in forecasting Azure service demand
+Optimized capacity planning across regions
+Reduction in CAPEX waste (~$120M savings per 1% accuracy improvement)
+Actionable insights for Azure Supply Chain team
+💮 Architecture Diagram
+Data Collection
+      ↓
+Data Cleaning & Preprocessing
+      ↓
+Feature Engineering
+(Lag, Rolling Mean, Spike Detection)
+      ↓
+Model Training (ARIMA & XGBoost)
+      ↓
+Hyperparameter Tuning (GridSearchCV)
+      ↓
+Model Evaluation (RMSE)
+      ↓
+Demand Prediction
+🧑🏻‍💻 Tech Stack
+💻 Programming Language
+Python
+📚 Libraries
+Pandas
+NumPy
+Scikit-learn
+Statsmodels
+XGBoost
+Matplotlib
+⚙️ Tools
+Jupyter Notebook
+GitHub
+📊 Dashboard & Application
+Azure Dashboard: Azure_Demand_Forecasting_Dashboard_Link
+Try the App: https://sunil-azure-demand-forecast-app.lovable.app/
