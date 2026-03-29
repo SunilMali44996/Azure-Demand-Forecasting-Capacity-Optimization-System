@@ -1,190 +1,90 @@
-🚀 Azure Demand Forecasting & Capacity Optimization System
-📌 Project Overview
-
-The Azure Demand Forecasting & Capacity Optimization System is a data-driven solution designed to predict future demand for Azure Compute and Storage services. The goal is to assist the Azure Supply Chain team in making smarter infrastructure provisioning decisions.
-
-By leveraging data science, feature engineering, and machine learning techniques, this system improves forecasting accuracy and helps reduce both over-provisioning and under-provisioning of cloud resources.
-
-🎯 Project Objectives
-
-Accurately forecast Azure service demand
-
-Optimize capacity planning across regions
-
-Reduce capital expenditure (CAPEX) waste
-
-Provide actionable insights for decision-making
-
-📊 Expected Outcomes
-
-📈 Improved demand forecasting accuracy
-
-⚙️ Efficient infrastructure provisioning
-
-💰 Potential savings (~$120M per 1% accuracy improvement)
-
-📌 Data-driven insights for Azure Supply Chain team
-
-🏗️ Project Structure
-Azure-Demand-Forecasting/
-│
-├── data/
-│   ├── raw_data.csv
-│   ├── cleaned_data.csv
-│
-├── notebooks/
-│   ├── data_preprocessing.ipynb
-│   ├── feature_engineering.ipynb
-│   ├── model_training.ipynb
-│
-├── src/
-│   ├── data_cleaning.py
-│   ├── feature_engineering.py
-│   ├── model.py
-│   ├── evaluation.py
-│
-├── outputs/
-│   ├── predictions.csv
-│   ├── performance_metrics.txt
-│
-├── README.md
-└── requirements.txt
-⏳ Project Timeline (8 Weeks)
-🔹 Milestone 1 (Weeks 1–2)
-Module: Data Collection & Preparation
-
-Objective: Prepare datasets for modeling
-
-Tasks:
-
-Collect Azure Compute & Storage usage data
-
-Include regional and seasonal variations
-
-Gather external factors (economic indicators, market trends)
-
-Handle missing values and inconsistencies
-
-Standardize dataset formats
-
-🔹 Milestone 2 (Weeks 3–4)
-Module: Feature Engineering & Data Wrangling
-
-Objective: Transform raw data into model-ready format
-
-Tasks:
-
-Identify demand-driving features
-
-Create derived features:
-
-Seasonality indicators
-
-Usage spikes
-
-Lag variables
-
-Normalize and reshape datasets
-
-Ensure consistent schema and time granularity
-
-🔹 Milestone 3 (Weeks 5–6)
-Module: Machine Learning Model Development
-
-Objective: Build and validate forecasting models
-
-Tasks:
-
-Train models:
-
-ARIMA (time-series forecasting)
-
-XGBoost (regression-based ML)
-
-Deep Learning (LSTM/Neural Networks)
-
-Evaluate using:
-
-MAE (Mean Absolute Error)
-
-RMSE (Root Mean Square Error)
-
-Forecast Bias
-
-Perform hyperparameter tuning
-
-Conduct backtesting
-
-Select best-performing model
-
-🧠 Technologies Used
-
-Python (Pandas, NumPy, Scikit-learn)
-
-Time Series Models (ARIMA)
-
-Machine Learning (XGBoost)
-
-Deep Learning (TensorFlow/Keras)
-
-Azure Cloud Services
-
-📈 Evaluation Metrics
-Metric	Description
-MAE	Measures average error magnitude
-RMSE	Penalizes larger errors
-Forecast Bias	Indicates over/under prediction
-⚙️ How to Run the Project
-
-Clone the repository:
-
-git clone https://github.com/your-repo/azure-demand-forecasting.git
-cd azure-demand-forecasting
-
-Install dependencies:
-
-pip install -r requirements.txt
-
-Run notebooks:
-
-Data preprocessing
-
-Feature engineering
-
-Model training
-
-📊 Sample Workflow
-
-Load raw data
-
-Clean and preprocess
-
-Perform feature engineering
-
-Train multiple models
-
-Evaluate performance
-
-Generate forecasts
-
-🔮 Future Scope
-
-Real-time demand forecasting
-
-Integration with Azure dashboards
-
-Automated model retraining pipelines
-
-Advanced anomaly detection
-
-🤝 Contribution
-
-Contributions are welcome! Feel free to fork this repository and submit pull requests.
-
-📬 Contact
-
-For queries or collaboration:
-
-Name: Sunil Mali
-
-Project: Azure Demand Forecasting System
+Azure Demand Forecasting & Capacity Optimization System
+📑 INDEX
+Project Overview
+Objectives
+Milestones
+Expected Outcomes
+Architecture Diagram
+Tech Stack
+Azure Dashboard
+Azure_Demand_Forecasting_Dashboard_Link 🌸
+🚀 Try the App: 👉Ritesh Azure Demand Forecasting
+
+
+Project_Overview 👀
+This project focuses on building a predictive system to accurately forecast Azure Compute and Storage demand. 
+The aim is to support the Azure Supply Chain team in making informed capacity provisioning decisions, reducing both over- and under-investment
+in infrastructure. 
+The solution will apply advanced data science, feature engineering, and machine learning techniques using Azure-based tools 
+to drive forecasting accuracy and efficiency.
+
+The system uses data preprocessing, feature engineering, and machine learning models to predict future demand patterns and provide actionable insights
+for infrastructure planning.
+Objectives 🎯
+🔺 Forecast future Azure service usage accurately
+🔺 Optimize resource allocation and provisioning
+🔺 Reduce infrastructure cost wastage
+🔺 Support decision-making using data-driven insights
+🔺 Enable scalable and automated demand prediction
+Key_Features_and_Milestones 🧠
+🎯MileStone 1(Data Collection & Preparation)
+
+    ⭐ Collect Azure Compute and Storage usage data with regional and seasonal dimensions
+    ⭐ Source relevant external variables (e.g., economic indicators, market demand trends)
+    ⭐ Clean and validate datasets: address missing values, unify formats, and ensure consistency
+    
+🎯MileStone 2(Feature Engineering & Data Wrangling)
+
+    ⭐ Identify demand-driving features like usage trends, service uptimes, and user behavior
+    ⭐ Engineer derived features including seasonality flags, usage spikes, and lag variables
+            🎫 Lag variables
+            🎫 Rolling averages
+            🎫 Spike detection
+    ⭐ Reshape and wrangle datasets into model-ready form with consistent schema and time granularity
+
+🎯MileStone 3(Build and validate models for accurate demand prediction)
+
+    ⭐ Train forecasting models including ARIMA and XGBoost
+    ⭐ Perform comparative evaluation using RMSE
+    ⭐ Apply hyperparameter tuning using GridSearchCV
+    ⭐ Select the best-performing model based on prediction accuracy
+Expected_Outcomes 🤔
+The goal of this project is to build a robust cloud demand forecasting system capable of predicting future 'Azure' compute and storage usage based on         historical patterns and engineered features. By leveraging time-series modeling and machine learning techniques, the project aims to generate accurate        demand predictions that can assist cloud providers in optimizing resource allocation and operational planning.
+
+The system processes historical usage data, applies feature engineering techniques such as lag variables, rolling averages, and spike detection, and          trains predictive models including ARIMA and XGBoost. These models are evaluated using industry-standard metrics such as RMSE to determine the                most effective forecasting approach.
+
+🔺 Improved accuracy in forecasting Azure service demand
+🔺 Optimized capacity planning and provisioning across regions
+🔺 Reduction in CAPEX waste, contributing to potential annual savings (~$120M per 1% gain in accuracy)
+🔺 Actionable intelligence for the Azure Supply Chain team via integrated insights
+Architecture_Diagram 💮
+        Data Collection
+              ↓
+Data Cleaning & Preprocessing
+              ↓
+    Feature Engineering
+(Lag, Rolling Mean, Spike Detection)
+              ↓
+        Model Training
+      (ARIMA & XGBoost)
+              ↓
+    Hyperparameter Tuning
+        (GridSearchCV)
+              ↓
+       Model Evaluation
+           (RMSE)
+              ↓
+      Demand Prediction
+Tech_Stack 🧑🏻‍💻
+💻 Programing Language:
+    - Python
+📚 Libraries
+    - Pandas
+    - NumPy
+    - Scikit-learn
+    - Statsmodels
+    - XGBoost
+    - Matplotlib
+⚙️ Tools
+    - Jupyter Notebook
+    - GitHub
