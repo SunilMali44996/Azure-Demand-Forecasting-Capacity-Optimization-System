@@ -13,7 +13,7 @@
 ## Azure_Demand_Forecasting_Dashboard_Link 🌸
 
 🚀 Try the App:
-    👉<a  href='https://ritesh-azure-demand-forecasting.lovable.app'>Ritesh Azure Demand Forecasting</a>
+    👉<a  href='https://sunil-azure-demand-forecast-app.lovable.app/'>Sunil Azure Demand Forecasting</a>
 
 <hr>
 <br>
