@@ -29,6 +29,8 @@
     The system uses data preprocessing, feature engineering, and machine learning models to predict future demand patterns and provide actionable insights
     for infrastructure planning.
 
+https://github.com/user-attachments/assets/7940d35f-6b08-4a3c-8c56-8f46c39ee797
+
 ## Objectives 🎯
 
     🔺 Forecast future Azure service usage accurately
@@ -106,10 +108,6 @@
         - Pandas
         - NumPy
         - Scikit-learn
-
-https://github.com/user-attachments/assets/7940d35f-6b08-4a3c-8c56-8f46c39ee797
-
-
         - Statsmodels
         - XGBoost
         - Matplotlib
