@@ -106,11 +106,16 @@
         - Pandas
         - NumPy
         - Scikit-learn
+
+https://github.com/user-attachments/assets/7940d35f-6b08-4a3c-8c56-8f46c39ee797
+
+
         - Statsmodels
         - XGBoost
         - Matplotlib
     ⚙️ Tools
         - Jupyter Notebook
         - GitHub
+
 
     
